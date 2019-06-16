@@ -15,6 +15,7 @@ class App extends React.Component {
           query: term
         }
       });
+      console.log(response);
     } catch (error) {
       console.log(error);
     }
